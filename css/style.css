@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**------INDEX---------**/
+
+/*---RESERT---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #E3E1D9;
+}
+/* !--Body-header--*/
+header {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* !seccion header*/
+
+
+.logo {
+    height: 170px;
+}
+.nav-link {
+    color: #E3E1D9;
+    font-size: 25px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #e60000;
+}
+
+/*menu burger*/
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: rgb(245 245 245 / 65%);
+    background-color: #6c757d;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+
+/* a {
+    height: 100%;
+    text-decoration: none;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul {
+    list-style: none;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+} */
+
+/* !---BARRA DE NAVEGACION-LISTA- */
+
+.nav-list li {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+    height: 100%;
+    width: 100%;
+    word-spacing: 10px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+/* ! seccion principal-MAIN---- */
+.hero {
+    text-align: center;
+    height: 450px;
+    background-image: url(../img/piezas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    line-height: 550px;
+}
+
+.hero h1 {
+    font-style: normal;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.pageprincipal {
+    width: 95%;
+}
+
+.pageprincipal p {
+    display: flex;
+}
+
+.pageprincipal2 {
+    display: flex;
+    align-items: center;
+}
+
+.pageprincipal2 img {
+    margin: 20px;
+}
+
+.pageprincipal2 p {
+    display: flex;
+    text-align: justify;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.pageprincipal h2 {
+    letter-spacing: 2px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pageprincipal3 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pageprincipal3 p {
+    display: flex;
+    text-align: justify;
+    padding: 15px;
+    margin: 10px;
+}
+
+.pageprincipal img {
+    display: flex;
+    width: 450px;
+    height: 350px;
+    justify-content: space-between 25px;
+}
+
+.pageprincipal-escalera {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pageprincipal-escalera img {
+    display: flex;
+    width: 450px;
+    height: 350px;
+    justify-content: space-between;
+}
+
+.pageprincipal-escalera p {
+    display: flex;
+    text-align: justify;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* ! seccion carousel */
+.galeria h2 {
+    margin: 10px;
+}
+
+.contenedor-carrousel {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*  ! seccion fotos "productos destacados-index"*/
+
+section .productosdestacados {
+    width: 700px;
+    height: 700px;
+}
+
+.card-container-master {
+    width: 100%;
+
+}
+
+.productosdestacados .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    gap: 25px;
+    margin: 80px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productosdestacados .card-container div img {
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+}
+
+.productosdestacados .card-container h4 {
+    font-size: 15px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+.productosdestacados h3 {
+    text-align: justify;
+    text-indent: 20px;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 10px;
+    gap: 30px;
+    color: black;
+}
+
+.productosdestacados .card-container .tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    position: static;
+    box-shadow: 6px 10px 21px -3px #333;
+    -webkit-box-shadow: 6px 10px 21px -3px rgba(0, 0, 0, 0.92);
+    -moz-box-shadow: 6px 10px 21px -3px rgba(0, 0, 0, 0.92);
+}
+
+
+
+/* !seccion footer*/
+
+footer {
+    display: flex;
+    height: 350px;
+    background-color: #B4B4B8;
+}
+
+footer img {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+/*!  seccion-contacto*/
+.fotocontacto {
+    width: 1250px;
+    height: 750px;
+}
+
+/* !seccion maps*/
+
+.mapas {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+
+}
+
+.mapas h3 {
+    display: flex;
+    color: black;
+    padding: 2%;
+    text-align: justify;
+}
+
+
+
+/**--------------PAGE--------------- seccion carta*/
+
+.cartaresto {
+    height: 500px;
+    background-image: url(../img/carta.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 500px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.carta-menu {
+    margin-left: 10px;
+}
+
+.carta-menu article div h3 {
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 30px;
+}
+
+.cartaresto h1 {
+    font-size: 60px;
+}
+
+main .carta-menu h2 {
+    font-size: 35px;
+    margin: 10px;
+}
+
+main .carta-menu div h3 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+main .carta-menu div h4 {
+    font-size: 20px;
+}
+
+main .carta-menu div p {
+    font-size: 16px;
+}
+
+/**GRIDS MENU**/
+/*! carta general grid-article N°1 **/
+
+.grid-container h2 {
+    word-spacing: 3px;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+/* grid menu*/
+.grid-container {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr auto 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "cartageneral . ."
+        "itemgrid1 itemgrid2 itemgrid3"
+        "itemgrid4 . .";
+}
+
+.cartageneral {
+    grid-area: cartageneral;
+}
+
+.itemgrid1 {
+    grid-area: itemgrid1;
+}
+
+.itemgrid2 {
+    grid-area: itemgrid2;
+}
+
+.itemgrid3 {
+    grid-area: itemgrid3;
+}
+
+.itemgrid4 {
+    grid-area: itemgrid4;
+}
+
+/*! Propuestas para almorzar / carta article N°2 */
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0.6fr 1.4fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "propuestas ."
+        "gridpropuesta .";
+}
+
+.propuestas {
+    grid-area: propuestas;
+}
+
+.gridpropuesta {
+    grid-area: gridpropuesta;
+}
+
+.grid-container2 h2 {
+    margin-top: 20px;
+}
+
+.grid-container2 h4 {
+    margin: 10px;
+}
+
+.grid-container2 p {
+    margin: 10px;
+}
+
+/*! linea veggie (grid3) article N°3 */
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr 1fr 1fr;
+    gap: 4px 4px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "propuestas-veggie ."
+        "gridpropuesta-veggie gridpropuesta-veggie2"
+        "gridpropuesta-veggie3 .";
+}
+
+.propuestas-veggie {
+    grid-area: propuestas-veggie;
+}
+
+.gridpropuesta-veggie {
+    grid-area: gridpropuesta-veggie;
+}
+
+.gridpropuesta-veggie3 {
+    grid-area: gridpropuesta-veggie3;
+}
+
+.gridpropuesta-veggie2 {
+    grid-area: gridpropuesta-veggie2;
+}
+
+/*! linea vegan (grid4) article N°4 */
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 1.6fr 0.4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "propuesta-vegan propuesta-vegan ."
+        "grid-vegan . ."
+        "grid-vegan2 . .";
+}
+
+.propuesta-vegan {
+    grid-area: propuesta-vegan;
+}
+
+.grid-vegan {
+    grid-area: grid-vegan;
+}
+
+.grid-vegan2 {
+    grid-area: grid-vegan2;
+}
+
+/*! NUESTRA COCINA (grid5) article N°5 */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "propuesta-cocina propuesta-cocina . ."
+        "grid-cocina grid-cocina grid-cocina2 grid-cocina2"
+        "grid-cocina3 grid-cocina3 . .";
+}
+
+.propuesta-cocina {
+    grid-area: propuesta-cocina;
+}
+
+.grid-cocina {
+    grid-area: grid-cocina;
+}
+
+.grid-cocina2 {
+    grid-area: grid-cocina2;
+}
+
+.grid-cocina3 {
+    grid-area: grid-cocina3;
+}
+
+/*! POSTRES (GRID6) article N°6)*/
+
+.grid-container6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0, 3fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "titulo-postres ."
+        "propuestas-postres propuestas-postres";
+}
+
+.titulo-postres {
+    grid-area: titulo-postres;
+}
+
+.propuestas-postres {
+    grid-area: propuestas-postres;
+}
+
+/*! BEBIDAS (grid7) article N°7) */
+
+.grid-container7 {
+    display: grid;
+    grid-template-columns: 2.1fr 0.1fr 0.3fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "propuesta-bebidas propuesta-bebidas propuesta-bebidas"
+        "bebidas1 bebidas1 bebidas1"
+        "bebidas2 bebidas2 bebidas2"
+        "bebidas3 bebidas3 bebidas3"
+        "bebidas4 bebidas4 bebidas4"
+        "bebidas5 bebidas5 bebidas5";
+}
+
+.propuesta-bebidas {
+    grid-area: propuesta-bebidas;
+}
+
+.bebidas1 {
+    grid-area: bebidas1;
+}
+
+.bebidas2 {
+    grid-area: bebidas2;
+}
+
+.bebidas3 {
+    grid-area: bebidas3;
+}
+
+.bebidas4 {
+    grid-area: bebidas4;
+}
+
+.bebidas5 {
+    grid-area: bebidas5;
+}
+
+
+/** ------------PAGE-------------------seccion catering* -foto eliminada - agregar-*/
+
+.fotocatering {
+    width: 950px;
+    height: 450px;
+}
+
+/**---------------PAGE-------------------- seccion reservas */
+
+.fotoreservas {
+    width: 1350px;
+    height: 780px;
+}
+
+/* ?---------------MEDIA QUERY (INDEX)---------------- */
+
+/*----VISTA CEL---*/
+
+@media screen and (max-width: 920px) {
+    .pageprincipal2 {
+        flex-direction: column-reverse;
+    }
+    .pageprincipal-escalera {
+        flex-direction: column-reverse;
+    }
+    .pageprincipal3{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    header{margin: auto;
+    width: auto;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .maps {
+        display: none;
+    }
+}
+
+/* ?------MEDIA QUERI (CARTA)------ */
+
+@media screen and (max-width: 420px) {
+    header {
+        margin: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 920) {
+    .grid-container { 
+        width: auto;
+        height: auto;
+    }    
+}
+
+
+
+
+
+/*VISTA TABLET*/
+
+/*@media screen and (max-width:991px) {
+    .mapas {
+        flex-direction: column
+    }
+}
+
+/*VISTA portatiles*/
+/*@media screen and (max-width:1024px) {}
+
+/*VISTA PC--ESCRITORIO--*/
+/*@media screen and (max-width:1200px) {}
