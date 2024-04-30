@@ -1,0 +1,42 @@
+/** ------------PAGE-------------------seccion Servicios**/
+
+.fotocatering {
+    width: 1302px;
+    height: 555px;
+}
+
+.heroservicios {
+    text-align: center;
+    height: 450px;
+    background-image: url(../img/catering-tabla.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    line-height: 550px;
+
+    h1 {
+        font-style: normal;
+        color: #000000;
+        font-size: 55px;
+        text-shadow: 0px 0px 5px #ffffff;
+    }
+}
+
+.text-servicios {
+    display: flex;
+
+    h5 {
+        text-indent: 5px;
+    }
+}
+
+.text-servicios2 {
+    display: flex;
+
+    h5 {
+        margin: 10px;
+        padding: 15px;
+        text-indent: 5px;
+        text-decoration: overline;
+    }
+}

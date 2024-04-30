@@ -12,30 +12,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | Sucushi</title>
+    <meta name="description" content="Es un restaurant de sushi fusión que combina los platos típicos japoneses con opciones frías y calientes, selección de sushi fresco y delicioso en Sucushi.">
+    <meta name="keywords" content="sushi, restaurante japonés, comida japonesa, rollos de sushi, nigiri, sashimi, makis, entrega de sushi, menú de sushi, pescado crudo, rollos de algas, tempura, wasabi, jengibre encurtido, sake, combinados de sushi, bento, poke, cocina asiática, barra de sushi, especialidades japonesas, rollos vegetarianos, sushi para llevar, sushi a domicilio, menú de almuerzo, menú de cena, sushi fresco, rollos de pescado, sushi de salmón">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/sucushi-trans.png" alt="logosucushi"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/sucushi-trans.png"
+                        alt="logosucushi"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="../index.html"">Inicio</a>
-                    <a class="nav-link" href="../pages/cartaresto.html">Carta</a>
-                    <a class="nav-link" href="../pages/reservas.html">Reservas</a>
-                    <a class="nav-link" href="../pages/eventosycatering.html">Servicio</a>
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html"">Inicio</a>
+                    <a class=" nav-link" href="../pages/cartaresto.html">Carta</a>
+                        <a class="nav-link" href="../pages/reservas.html">Reservas</a>
+                        <a class="nav-link" href="../pages/eventosycatering.html">Servicio</a>
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </div>
                 </div>
-            </div>
             </div>
         </nav>
 
 
-            <!------NAV ORIGINAL-<a href="../index.html"><img class="logo" src="../img/sucushi-trans.png" alt="logosucushi"></a>
+        <!------NAV ORIGINAL-<a href="../index.html"><img class="logo" src="../img/sucushi-trans.png" alt="logosucushi"></a>
             <nav>
                 <ul class="nav-list">
                     <li><a href="../index.html">Inicio</a></li>
@@ -47,77 +52,65 @@
             </nav>   <!-->
     </header>
     <main>
-        <h1>¡Tu Opinión Importa en Sucushi!</h1>
-        <h2>En Sucushi, valoramos cada experiencia y buscamos constantemente mejorar.</h2>
-        <p>
-            Si has disfrutado de nuestros sabores y servicio, o si tienes alguna idea o sugerencia que pueda enriquecer
-            nuestra propuesta culinaria, ¡queremos saberlo!
-            Comparte tu opinión sobre lo que más te gustó, tus ideas para nuevos platos, o cualquier detalle que creas
-            que podríamos mejorar. Y si te apasiona el arte del sushi tanto como a nosotros y estás interesado en ser
-            parte de nuestro equipo, ¡esta es tu oportunidad de brillar!
-            Deja tu comentario en nuestra sección especial y sé parte de la historia de Sucushi, donde cada voz importa
-            y cada sugerencia es un paso hacia la excelencia.
-            ¡Gracias por ayudarnos a crecer y por considerar unirte a nuestra familia Sucushi!
-        </p>
-        <img class="fotocontacto" src="../img/foto-contacto.jpg" alt="fotocontacto">
-        <!--Formulario de contacto-->
-        <section>
-            <h3>Ponete en contacto con nosotros:</h3>
-            <form action="" method="" enctype="">
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
-                </div>
-                <div>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" placeholder="Escribe tu apellido">
-                </div>
-                <div>
-                    <label for="">Email</label>
-                    <input type="email" id="email">
-                </div>
-                <div>
-                    <label for=""><br>Escribe tu comentario y/o sugerencia</br></label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit">
-                    <input type="reset">
-                </div>
-            </form>
+        <section class="hero5">
+            <h1>¡Tu Opinión Importa en Sucushi!</h1>
         </section>
+        <div class="text-contacto">
+            <h2>En Sucushi, valoramos cada experiencia y buscamos constantemente mejorar.</h2>
+        <p>
+            En Sucushi, tu experiencia y opiniones son esenciales. Si te encantó nuestra comida y servicio o si tienes sugerencias innovadoras, ¡compártelas! Tus comentarios sobre favoritos y propuestas para nuevos platos son valiosos. Además, si el sushi es tu pasión y deseas unirte a nuestro equipo, ¡tu momento ha llegado! Deja tu huella en Sucushi dejando un comentario y contribuye a nuestra búsqueda de la excelencia. Agradecemos tu apoyo y consideración para ser parte de nuestra familia.
+        </p>
+        </div>
+        <!--Formulario de contacto-->
+        <div class="container">
+            <form id="contact" action="" method="post">
+                <h3>Contactanos!</h3>
+                <fieldset>
+                    <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Email" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Numero de tel (opcional)" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Escribe tu comentario y/o sugerencia..." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="Enviar" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
     </main>
     <!-- comienzo de footer  -->
-    <footer>
-        <div> <!-- Redes Sociales -->
-            <h4>Síguenos para estar al tanto de nuestras novedades y promociones.</h4>
-            <a href="http://www.instagram.com" target="_blank"><img class="iconosredes" src="../img/instagram.png"
-                    alt="instagram"><a>
-                    <a href="http://www.facebook.com" target="_blank"><img class="iconosredes" src="../img/facebook.png"
-                            alt="facebook"></a>
-        </div>
-        <!--Telefono de contacto-->
-        <div>
-            <!--Enlaces del footer-->
-            <!--Delivery-->
-            <a href="../pages/eventosycatering.html" target="_blank">Pedidos online</a>
-            <!--Reservas Online-->
-            <a href="reservas.html">Reserva online</a>
-            <!--Eventos-->
-            <a href="../pages/eventosycatering.html">Eventos</a>
-            <!--Trabaja con nosotros-->
-            <a href="../pages/contacto.html">Trabaja con nosotros</a>
-            <!--Telefono Imagen de contacto -->
-            <a href="../pages/reservas.html">Ponete en contacto</a>
-            <img class="iconocontacto" src="../img/telefono.png" alt="telefono">
-            <p>Teléfono: +54 11 1234 5678</p>
-            <img class="iconocontacto" src="../img/ubicacion.png" alt="ubicacion">
-            <p>Av. Pres. Figueroa Alcorta 3839</p>
-            <img class="iconocontacto" src="../img/arroba.png" alt="correo">
-            <p>Correo Electrónico: info@sucushi.com</p>
-            <p>¡Esperamos ser parte de tus momentos especiales con el sabor inigualable de Sucushi!</p>
-        </div>
-        <p>Sucushi &copy; 2006 - 2024 Reservados todos los derechos</p>
+    <footer class="footer" id="footer">
+        <div class="container-footer">
+            <div class="footer-article">
+                <div class="footer-info">
+                    <h3 class="footer-info-title">Sucushi</h3>
+                    <p>幸あれ (Sachi are)</p>
+                </div>
+                <div class="footer-info">
+                    <h3 class="footer-info-title">Contacto</h3>
+                    <p>Av. Pres. Alcorta 3839</p>
+                        <span>+54 11 1234 5678</span>
+                        <a href="mailto:contact@thefiasco.com">info@sucushi.com</a>
+                    </p>
+                </div>
+                <div class="footer-info">
+                    <h3 class="footer-info-title">Horario</h3>
+                    <p>Martes a Domingo | 19:00 PM - 12:00PM</p>
+                    <div class="redes">
+                        <a href="http://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p><span>Sucushi © 2006 - 2024</span> | Reservados todos los derechos.</p>
+            </div>
     </footer>
 </body>
 

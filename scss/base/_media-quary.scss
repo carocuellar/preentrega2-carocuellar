@@ -1,0 +1,58 @@
+/* ?---------------MEDIA QUERY (INDEX)---------------- */
+
+@media screen and (max-width: 920px) {
+}
+
+
+
+@media screen and (max-width: 780px) {
+    header {
+        margin: auto;
+        width: auto;
+    }
+}
+
+body {
+    main{   
+        .pageprincipal 
+            .pageprincipal2 {
+}
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .productosdestacados .card-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        width: auto;
+    }
+}
+
+
+
+main .productosdestacados {
+    display: flex;
+    flex-direction: column;
+    
+}
+@media screen and (max-width: 620px) {
+    width: auto;
+}
+@media screen and (max-width: 525px) {
+    .maps {
+        display: none;
+    }
+}
+
+/*VISTA TABLET*/
+
+@media screen and (max-width: 420px) {
+    header {
+        margin: auto;
+        width: auto;
+    }
+}

@@ -1,0 +1,172 @@
+body {
+    main {
+        .hero {
+            text-align: center;
+            height: 350px;
+            background-image: url(../img/piezas.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            line-height: 550px;
+
+            h1 {
+                font-style: normal;
+                color: #000000;
+                font-size: 55px;
+                text-shadow: 0px 0px 5px #ffffff;
+            }
+        }
+        .pageprincipal{
+            width: auto;
+            height: auto;
+            margin: 20px;
+            padding: 20px;
+            .pageprincipal2 {
+                display: flex;
+                margin: 10px;
+                padding: 10px;
+                img {
+                margin-left: 10px;
+                width: 640px;
+                height: 180px;
+                justify-content: space-between;
+            }
+
+            p {
+                display: flex;
+                text-align: justify;
+                padding: 15px;
+                margin: 20px;
+            }
+        }
+
+        .pageprincipal3 {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+            img{
+                width: 420px;
+                height: 180px;
+            }
+            p {
+                display: flex;
+                text-align: justify;
+                padding: 15px;
+                margin: 20px;
+            }
+        }
+
+        .pageprincipal-escalera {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+
+            img {
+                display: flex;
+                width: 560px;
+                height: 180px;
+                justify-content: space-between;
+            }
+
+            p {
+                display: flex;
+                text-align: justify;
+                padding: 15px;
+                margin: 20px;
+            }
+        }
+    }
+
+        /* ! seccion carousel- boostrap */
+        .galeria {
+            h2 {
+                margin: 2px;
+            }
+            div {
+                div {
+                    img {
+                        height: 750px;
+                    }
+                }
+            }
+        }
+
+        .productosdestacados {
+            width: 450px;
+            height: 550px;
+        }
+
+        .productosdestacados article {
+            width: auto;
+            height: auto;
+        }
+
+        .productosdestacados {
+            .card-container {
+                display: flex;
+                width: 450px;
+                height: 400px;
+                gap: 25px;
+                margin: 40px;
+                padding: 15px;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+        div {
+            img {
+                width: 180px;
+                height: 250px;
+                margin: 10px;
+            }
+        }
+
+        h4 {
+            font-size: 15px;
+            text-indent: 10px;
+            text-align: justify;
+        }
+
+        h3 {
+            text-align: justify;
+            text-indent: 20px;
+            text-decoration: none;
+            font-size: 35px;
+            padding: 10px;
+            gap: 30px;
+            color: black;
+        }
+
+        .card-container {
+            .tarjeta {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                position: static;
+                box-shadow: 6px 10px 21px -3px #333;
+                -webkit-box-shadow: 6px 10px 21px -3px rgba(0, 0, 0, 0.92);
+                -moz-box-shadow: 6px 10px 21px -3px rgba(0, 0, 0, 0.92);
+                justify-items: center;
+            }
+        }
+/* !seccion maps*/
+
+        .mapas {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            padding: 10px;
+
+            h3 {
+                display: flex;
+                color: black;
+                padding: 2%;
+                text-align: justify;
+            }
+        }
+    }
+}
