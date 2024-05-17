@@ -11,3 +11,25 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     background-color: #E3E1D9;
 }
+
+/* Variables */
+
+$color-header: #000000;
+$color-footer: #909090;
+$color-botones-hover:#a52505;  
+
+
+$btn-bg: #fff;
+$btn-hover-bg: #c84646;
+$btn-color: #000;
+$btn-hover-color: #fff;
+
+/*mixins - aplicados en la seccion de productos destacados. card-container*/
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;    
+}
+
+/*extends*/
+

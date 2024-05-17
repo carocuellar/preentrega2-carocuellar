@@ -1,7 +1,7 @@
 /**--------------PAGE--------------- seccion carta*/
 
 .cartaresto {
-    height: 500px;
+    height: 450px;
     background-image: url(../img/carta.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -11,58 +11,70 @@
 }
 
 .carta-menu {
-    margin-left: 10px;
-
-    article div h3 {
+    article{
+        div{
+            h3 {
         margin-top: 15px;
         margin-bottom: 6px;
-        font-size: 30px;
+            }
+        }
     }
 }
-
-.cartaresto h1 {
+.cartaresto {
+    h1 {
+    font-style: normal;
+    padding-top: 40px;
     color: #000000;
-    text-shadow: 0px 0px 5px #ffffff;
-    font-size: 60px;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px #ffffff;
 }
-
+}
 /**Carta-MENU**/
-.grid-container h2 {
-    word-spacing: 3px;
+.grid-container {
+    h2 {
     text-decoration: underline;
-    text-align: justify;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    }
 }
 
 /* grid menu*/
 .menu {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 500px));
-    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(650px, 500px));
+    grid-gap: 1rem;
 }
 
 .menu-part {
     display: grid;
     grid-template-columns: 150px minmax(200px 280px) 60px;
     /* grid-row-gap: 10px;*/
-    grid-column-gap: 15px;
+    grid-column-gap: 0px;
     grid-template-areas:
-        "img menu-item price"
-        "img description .";
+        "img menu-item price";
     margin-top: 10px;
     margin-bottom: 10px;
-    align-items: top;
-}
-
-img {
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    img {
     grid-area: auto;
-    width: 100px;
-    min-width: 100px;
-    height: auto;
+    width: 200px;
+    height: 180px;
+    margin: 5px;
+    padding: 5px;
+    }
+    p{
+    padding: 10px 1px;
+    margin: 10px;
+    }
 }
 
 .menu-item {
     grid-area: menu-item;
     font-weight: bold;
+    
 }
 
 .price::before {
@@ -75,7 +87,4 @@ img {
     font-weight: bold;
 }
 
-.description {
-    grid-area: description;
-    margin: 0;
-}
+

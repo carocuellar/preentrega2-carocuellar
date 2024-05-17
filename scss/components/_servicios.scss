@@ -7,7 +7,7 @@
 
 .heroservicios {
     text-align: center;
-    height: 450px;
+    height: 350px;
     background-image: url(../img/catering-tabla.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -16,9 +16,10 @@
 
     h1 {
         font-style: normal;
+        padding-top: 35px;
         color: #000000;
-        font-size: 55px;
-        text-shadow: 0px 0px 5px #ffffff;
+        font-size: 35px;
+        text-shadow: 2px 2px 2px #ffffff;
     }
 }
 
@@ -26,17 +27,22 @@
     display: flex;
 
     h5 {
-        text-indent: 5px;
+        text-indent: 15px;
+        margin: 10px;
     }
 }
 
 .text-servicios2 {
-    display: flex;
 
     h5 {
         margin: 10px;
         padding: 15px;
         text-indent: 5px;
-        text-decoration: overline;
     }
+}
+
+body main section h4{
+    font-size: 15px;
+    text-indent: 20px;
+    text-align: justify;
 }

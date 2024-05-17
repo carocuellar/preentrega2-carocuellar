@@ -2,46 +2,59 @@
 
 footer {
     display: flex;
-    height: 205px;
-    background-color: #909090;
+    background-color: $color-footer;
 
     .redes {
         display: flex;
-        margin: 25px;
-        padding: 10px;
-        width: 20px;
-        height: 20px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        a {
+            i{
+                margin-right: 10px;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+        }
     }
-
-    &.redes a i {
-        margin-right: 10px;
+    .container-footer {
+        max-width: 400px;
+        padding: 2px 5px 5px 5px;
+        color: black;
     }
-}
-
-.container-footer {
-    display: list-item;
-    max-width: 750px;
-    padding: 30px 50px 50px 75px;
-    color: black;
-}
-
-.footer-article {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.footer-info {
-    margin: 0 15px;
-    padding: 0 5px;
-}
-
-.footer-info-title {
-    margin-top: 0;
-}
+    .footer-article {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+    }
+    .footer-info {
+        margin: 0 20px;
+        padding: 0 5px;
+        h3 {
+            font-size: 18px;
+            text-align: justify;
+        }
+        p {
+            font-size: 15px;
+        }
+        a{
+            color: #c84646;
+        }
+        .redes {
+            a {
+                i {
+                    color: #000000;
+                    font-size: 25px;
+                    &:hover {
+                        color: #c84646;
+                    }
+                }
+            }
+        }
+    }
+    .footer-info-title {
+        margin-top: 0;
+    }
 
 .footer-info {
     &:first-child {
@@ -55,7 +68,6 @@ footer {
 
     &:nth-child(3) {
         padding-right: 0;
-        max-width: 320px;
         -webkit-box-flex: 0;
         -ms-flex: none;
         flex: none;
@@ -63,13 +75,17 @@ footer {
 }
 
 .footer {
-    .container-footer .copyright {
+    .container-footer{ 
+        .copyright {
         padding-top: 0;
         margin-top: 0;
+        }
     }
 
+
     a {
-        text-decoration: underline;
+        display: flex;
+    }
 
         &:hover {
             color: #c84646;

@@ -237,7 +237,6 @@ footer .redes{
         
 }
 footer.redes a i{
-    
     margin-right: 10px;
 }
 
@@ -266,6 +265,7 @@ footer.redes a i{
 
 .footer-info-title {
     margin-top: 0;
+    font-size: 18px;
 }
 
 .footer-info:first-child {
@@ -281,8 +281,8 @@ footer.redes a i{
     padding-right: 0;
     max-width: 320px;
     -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
+    -ms-flex: none;
+    flex: none;
 }
 
 .footer .container-footer .copyright {
@@ -290,9 +290,6 @@ footer.redes a i{
     margin-top: 0;
 }
 
-.footer a {
-    text-decoration: underline;        
-}
 
 .footer a:hover {
     color: #c84646;
@@ -321,7 +318,7 @@ footer.redes a i{
 .hero5 h1 {
     font-style: normal;
     color: #0d0d0dc4;
-    font-size: 60px;
+    font-size: 35px;
     text-shadow: 0px 0px 7px #ffffff;
 }
 
@@ -339,7 +336,7 @@ footer.redes a i{
 }
 
 .text-contacto p {
-    color: #333;
+    color: #000000;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
@@ -494,7 +491,7 @@ fieldset {
 .cartaresto h1 {
     color: #000000;
     text-shadow: 0px 0px 5px #ffffff;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 /**Carta-MENU**/
@@ -573,7 +570,7 @@ img {
 .heroservicios h1 {
     font-style: normal;
     color: #000000;
-    font-size: 55px;
+    font-size: 35px;
     text-shadow: 0px 0px 5px #ffffff;
 }
 
@@ -679,7 +676,7 @@ form {
 }
 
 .reservation input::-ms-input-placeholder {
-    color: #883d3d;
+    color: #c84646;
     font-weight: 300;
 }
 
@@ -692,7 +689,7 @@ form {
 .reservation select:hover,
 .reservation input:focus,
 .reservation select:focus {
-    border: solid 1px #C89446;
+    border: solid 1px #c84646;
     background-color: rgba(255, 255, 255, .1);
     cursor: pointer;
     -webkit-transition: .3s;

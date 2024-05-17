@@ -1,28 +1,29 @@
-/* ?---------------MEDIA QUERY (INDEX)---------------- */
-
-@media screen and (max-width: 920px) {
+/* ? -------media quaries---*/
+@media screen and (max-width: 800px) {
+    body{
+        main{
+            .fotoreservas{
+                    h2{
+                    font-size: 35px;
+                    }
+                }
+            }
+        }
 }
-
-
-
 @media screen and (max-width: 780px) {
-    header {
+    body{
+        header {
         margin: auto;
         width: auto;
-    }
-}
-
-body {
-    main{   
-        .pageprincipal 
-            .pageprincipal2 {
-}
+        }
     }
 }
 
 @media screen and (max-width: 760px) {
-    .productosdestacados .card-container {
+    .productosdestacados{ 
+        .card-container {
         flex-direction: column;
+        }
     }
 }
 
@@ -32,27 +33,145 @@ body {
     }
 }
 
-
-
-main .productosdestacados {
-    display: flex;
-    flex-direction: column;
-    
-}
-@media screen and (max-width: 620px) {
-    width: auto;
-}
-@media screen and (max-width: 525px) {
-    .maps {
-        display: none;
+main {
+    .productosdestacados {
+        display: flex;
+        flex-direction: column;
     }
 }
 
-/*VISTA TABLET*/
+//*@media CARTA//*
 
-@media screen and (max-width: 420px) {
-    header {
-        margin: auto;
-        width: auto;
+@media screen and (max-width: 650px) {
+    body {
+        main {
+            .menu {
+                grid-template-columns: repeat(auto-fill, minmax(350px, 500px));
+                .menu-part {
+                    grid-template-areas:
+                        "img"
+                        "menu-item"
+                        "price";
+                    p{
+                        font-size: 15px;
+                        width: 60%;
+                        text-align: justify;
+                    }
+                    img{
+                        width: 220px;
+                        height: 180px;
+                        }
+                    }
+            section{
+                    .heroservicios{
+                        h1{
+                        font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
+
+@media screen and (max-width: 630px) {
+    body {
+        main {
+            .pageprincipal {
+                .pageprincipal2 {
+                    p {
+                        width: 90%;
+                    }
+                }
+
+                .pageprincipal-escalera {
+                    p {
+                        width: 90%;
+                    }
+                }
+
+                .pageprincipal3 {
+                    p {
+                        width: 90%;
+                    }
+                }
+            }
+
+            .mapas {
+                h3 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 590px) {
+    body {
+        main {
+            .mapas {
+                h3 {
+                    font-size: 20px;
+                    }
+                }
+            }
+        }
+        footer {
+            justify-content: center;
+
+            .container-footer {
+                .footer-article {
+                    flex-direction: column
+                }
+            }
+        }
+}
+
+
+
+@media screen and (max-width: 530px) {
+    body {
+        main {
+            .mapas {
+                h3 {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    body {
+        main {
+            .mapas {
+                .maps {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 385px) {
+    body{
+        main{
+            section{
+                .carta-menu{
+                    .grid.container{
+                        .menu{
+                            .menu-part{
+                                img{
+                                    width: 200px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}
+
+
+
